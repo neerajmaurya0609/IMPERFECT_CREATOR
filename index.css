@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_960_720.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#head_line {
+    text-decoration: none;
+}
+
+#head_line h1 img{
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: azure;  
+    font-size: 50px;
+    
+}
+
+#container {
+    background: transparent;
+    width: 80%;
+    padding: 5px;
+    margin: auto;    
+}
+
+.link_container {    
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link_container div {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;    
+    border-radius: 5px; 
+    transition: 2s;   
+}
+.btn{
+    border: 7px solid SlateBlue;
+    border-radius: 10px;
+    background: transparent;
+    transition: 1s;
+}
+a .btn {
+    text-align: center;
+    color: rgb(0, 255, 234);
+    font-size: 30px;    
+    text-decoration: none;
+    font-weight: bold;
+    width: 350px      
+}
+
+.btn:hover{
+    background-color: SlateBlue;
+}
+
+.Daily_Photo a .btn {
+    width: 450px;
+}
+
+.facebook a .btn{
+    width: 450px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(207, 9, 19);    
+}
+
+footer{
+    margin-top: 300px;
+    background-color: silver;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;  
+    padding-top: 50px;
+}
+
+.link_container1 .instagram a .btn {
+    margin-left: 350px ;    
+}
