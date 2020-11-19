@@ -73,7 +73,7 @@ a .btn {
 
 h2{
     text-align: center;
-    color: rgb(207, 9, 19);    
+    color: white    
 }
 
 footer{    
@@ -86,8 +86,7 @@ footer{
 }
 
 footer p {
-    text-align: center;  
-    padding-top: 50px;
+    text-align: center;     
 }
 
 .link_container1 .instagram a .btn {
