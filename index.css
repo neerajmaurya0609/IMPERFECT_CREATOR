@@ -76,10 +76,13 @@ h2{
     color: rgb(207, 9, 19);    
 }
 
-footer{
-    margin-top: 300px;
-    background-color: silver;
-    height: 100px;
+footer{    
+    background-color: silver;    
+    align-items: flex-end;    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;       
 }
 
 footer p {
